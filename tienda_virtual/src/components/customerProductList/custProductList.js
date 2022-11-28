@@ -1,4 +1,4 @@
-import { Component } from "react";
+import React, { Component } from "react";
 import '../../styles/Tabla.css';
 
 var heading = ['Id Producto', 'Nombre Producto','Descripcion Producto', 'Valor Unitario'];
