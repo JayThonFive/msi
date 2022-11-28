@@ -4,7 +4,9 @@ const productRouter = require("./app/routes/routes");
 const mongoose = require("mongoose");
 // var mongoClient = require('mongodb').MongoClient;
 
- 
+var cors = require('cors');
+app.use(cors());
+
 //middleware
 app.use(express.json());
  

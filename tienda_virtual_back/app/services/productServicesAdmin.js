@@ -1,6 +1,7 @@
 const ProductModel = require("../models/products");
  
 exports.getAllProducts = async () => {
+  console.log("Services: ingresa");
   return await ProductModel.find();
 };
  
